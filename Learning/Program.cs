@@ -2,9 +2,8 @@
 
 
 //List<string> bandas = new List<string> { "Metric", "U2", "Iron Maiden" };
-using Learning;
+using Learning.curso1;
 
 
 
-Curso1 curso1 = new Curso1();
-Curso1.execute();
+//Curso1.execute();
