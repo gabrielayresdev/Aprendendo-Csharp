@@ -11,7 +11,7 @@ namespace Learning.curso2
         public string Name { get; set; }
         public string Artist { get; set; }
         public string Album {  get; set; }
-        public string Duration { get; set; }
+        public int Duration { get; set; }
         public bool Available { get; set; }
         public string Description { 
             get
