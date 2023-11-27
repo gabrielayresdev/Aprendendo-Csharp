@@ -8,8 +8,12 @@ namespace Learning.curso2
 {
     internal class Music
     {
+        public Music(Artist artist, string name) {
+            Artist = artist;
+            Name = name;
+        }
         public string Name { get; set; }
-        public string Artist { get; set; }
+        public Artist Artist { get; }
         public string Album {  get; set; }
         public int Duration { get; set; }
         public bool Available { get; set; }
